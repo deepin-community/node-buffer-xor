@@ -1,0 +1,26 @@
+Source: node-buffer-xor
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ravishankar Purne <ravisamil96@gmail.com>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 12)
+ , mocha <!nocheck>
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-buffer-xor
+Vcs-Git: https://salsa.debian.org/js-team/node-buffer-xor.git
+Homepage: https://github.com/crypto-browserify/buffer-xor
+Rules-Requires-Root: no
+
+Package: node-buffer-xor
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs (>= 4.7)
+Description: Simple module for bitwise-xor on buffers
+ This module applies xor operation between two buffers.
+ This is a dependency for browserify
+ .
+ Node.js is an event-based server-side JavaScript engine.

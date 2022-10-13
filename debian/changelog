@@ -1,0 +1,39 @@
+node-buffer-xor (2.0.1.REALLY.1.0.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Switch test and install to pkg-js-tools
+  * Update VCS fields to salsa
+  * Fix copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 16 Dec 2019 22:53:47 +0100
+
+node-buffer-xor (2.0.1.REALLY.1.0.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Downgrade to 1.0.3 as browserify-aes does not work with 2.0.1
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 16 Jun 2017 13:36:30 +0530
+
+node-buffer-xor (2.0.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+  * Update git to collab-maint instead of non existent.
+  * Bump compat.
+  * Improve description.
+  * Run testsuite.
+  * Improve cli.
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 13 Apr 2017 15:01:23 +0200
+
+node-buffer-xor (2.0.1-1) experimental; urgency=low
+
+  * Initial release (Closes: #854246)
+
+ -- Ravishankar Purne <ravisamil96@gmail.com>  Sun, 05 Feb 2017 12:00:04 +0000
